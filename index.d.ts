@@ -1,4 +1,4 @@
-declare module "zokrates-js" {
+declare module "@holonym-foundation/zokrates-js-fork" {
   export type Backend = "ark" | "bellman";
   export type Curve = "bn128" | "bls12_381" | "bls12_377" | "bw6_761";
   export type Scheme = "g16" | "gm17" | "marlin";
