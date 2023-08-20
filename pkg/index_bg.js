@@ -653,6 +653,8 @@ export function __wbindgen_memory() {
     return addHeapObject(ret);
 };
 
-cachedInt32Memory0 = new Int32Array(wasm.memory?.buffer ?? []);
-cachedUint8Memory0 = new Uint8Array(wasm.memory?.buffer ?? []);
+// cachedInt32Memory0 = new Int32Array(wasm.memory?.buffer ?? []);
+// cachedUint8Memory0 = new Uint8Array(wasm.memory?.buffer ?? []);
+cachedInt32Memory0 = new Int32Array([]);
+cachedUint8Memory0 = new Uint8Array([]);
 
